@@ -34,7 +34,7 @@ export const HeroScreen = ({ history }) => {
         <div className="row mt-5">
             <div className="col-4">
                 <img
-                    src={ `assets/heroes/${ heroId }.jpg` }
+                    src={ `./assets/heroes/${ heroId }.jpg` }
                     alt={ superhero }
                     className="img-thumbnail animate__animated animate__fadeInLeft"
                 />
@@ -47,7 +47,7 @@ export const HeroScreen = ({ history }) => {
                     <li className="list-group-item"> <b> First appearance: </b> { first_appearance } </li>
                 </ul>
 
-                <h5> Characters </h5>
+                <h5> Characters: </h5>
                 <p> { characters } </p>
 
                 <button 
